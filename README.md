@@ -1,16 +1,25 @@
 # Amazon Price & Product Crawler with Big Data Analysis
 
-Features:
-- Web Crawling: The crawler component, built using the Python library Beautiful Soup, retrieves information about prices and products from Amazon's web pages. 
-- Big Data Processing: Apache Spark is used for processing and analyzing the collected data.
-- Price Analysis: The project provides a range of analytical capabilities to explore price trends, including historical price comparisons, price distribution analysis, and price change detection.
-- Product Analysis: Various product-related analyses can be conducted, such as popularity trends, customer ratings, and reviews sentiment analysis. These insights help users understand the performance and customer reception of specific products on Amazon.
-- Graphical Visualizations: The project offers a set of visualizations using popular data visualization libraries like Matplotlib and Plotly. These visualizations include line charts, bar graphs, and scatter plots, presenting the analyzed data in a clear and intuitive manner.
+## Overview
+This project utilizes advanced web crawling and big data analysis techniques to extract and analyze product and price information from Amazon. It leverages Beautiful Soup for web scraping, Apache Spark for big data processing, and several visualization libraries to present the data.
 
-Dependencies:
-- Python 3.1
+## Features
+- **Web Crawling**: Retrieve information about products and prices using Beautiful Soup.
+- **Big Data Analysis**: Utilize Apache Spark for handling large datasets effectively.
+- **Price Analysis**: Explore price trends through historical data comparisons and change detection.
+- **Product Analysis**: Analyze product popularity, customer ratings, and reviews sentiment.
+- **Data Visualization**: Generate intuitive visuals like line charts and scatter plots using Matplotlib and Plotly.
+
+## Dependencies
+
+- Python 3.1+
 - Beautiful Soup
 - Apache Spark
-- Matplotlib
+- Matplotlib / Plotly
 - requests
 
+## Getting Started
+
+1. Clone the repository: `git clone https://github.com/Sakethsreeram7/Web-Crawler-using-Big-data.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the crawler and analysis scripts.
