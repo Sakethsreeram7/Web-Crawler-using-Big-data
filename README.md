@@ -20,6 +20,8 @@ This project utilizes advanced web crawling and big data analysis techniques to 
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/Sakethsreeram7/Web-Crawler-using-Big-data.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the crawler and analysis scripts.
+1. #### Clone the repository:
+     `git clone https://github.com/Sakethsreeram7/Web-Crawler-using-Big-data.git`
+3. #### Install dependencies:
+     `pip install -r requirements.txt`
+4. #### Run the crawler and analysis scripts.
